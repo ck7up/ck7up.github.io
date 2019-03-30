@@ -112,23 +112,23 @@ nav.actu-profil a:hover, nav.actu-profil a:active, nav.actu-profil a.active {
 }
 
 a.fil-actu::before {
-    background: url('../img/actualite.svg') center center / contain no-repeat;
+    background: url('actualite.svg') center center / contain no-repeat;
 }
 
 a.msg::before {
-    background: url('../img/message.svg') center center / contain no-repeat;
+    background: url('message.svg') center center / contain no-repeat;
 }
 
 a.events::before {
-    background: url('../img/events.svg')center center / contain no-repeat;
+    background: url('events.svg')center center / contain no-repeat;
 }
 
 a.group::before {
-    background: url('../img/group.svg')center center / contain no-repeat;
+    background: url('group.svg')center center / contain no-repeat;
 }
 
 a.amis::before {
-    background: url('../img/group.svg') center center / contain no-repeat;
+    background: url('group.svg') center center / contain no-repeat;
 }
 
 .actu-profil {
@@ -247,11 +247,11 @@ a.amis::before {
 }
 
 .footer-card a.like::before {
-    background: url('../img/like.svg') center center / contain no-repeat;
+    background: url('like.svg') center center / contain no-repeat;
 }
 
 .footer-card a.comment::before {
-    background: url('../img/comment.svg') center center / contain no-repeat;
+    background: url('comment.svg') center center / contain no-repeat;
 }
 
 .float-r {
