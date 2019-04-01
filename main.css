@@ -59,11 +59,11 @@ input::placeholder {
 
 button {
     background: url('search.svg') center center / contain no-repeat;
-    height: 16px;
-    width: 16px;
+ height: 12px;
+    width: 12px;
     position: absolute;
     right: 6px;
-    top: 14px;
+    top: 16px;
     border: none;
     cursor: pointer;
     opacity: 0.5;
