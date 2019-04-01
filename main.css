@@ -33,23 +33,18 @@ a.logo {
     float: left;
     font-size: 24px;
     color: rgba(255, 255, 255);
-    padding: 0px 51px;
+    /* padding: 0px 51px; */
     opacity: 1;
     line-height: 42px;
-}
-
-a.logo:hover {
-    opacity: .3;
-    font-weight: bold;
 }
 
 .menu {
     text-align: center;
     line-height: 42px;
     float: right;
-    padding-right: 51px;
+    /* padding-right: 51px; */
     font-size: 14px;
-    padding: 0px 51px;
+    /* padding: 0px 51px; */
 }
 
 .menu a {
@@ -70,6 +65,11 @@ a.logo:hover {
 .background-contenaire {
     background: #F1F1F1;
     padding: 50px;
+}
+
+.container-menu {
+    margin: 0 auto;
+    max-width: 1050px;
 }
 
 .container {
