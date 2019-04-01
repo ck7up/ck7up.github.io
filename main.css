@@ -24,13 +24,13 @@ a {
     z-index: 1;
 }
 
-.logo img {
+/* .logo img {
     width: 180px;
     height: 42px;
-}
+} */
 
 a.logo {
-    float: left;
+/*     float: left; */
     font-size: 24px;
     color: rgba(255, 255, 255);
     /* padding: 0px 51px; */
