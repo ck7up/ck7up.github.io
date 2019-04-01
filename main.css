@@ -162,7 +162,7 @@ a.amis::before {
     background: #fff;
     border: 1px solid #DBDBDB;
     border-radius: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .header-card a img {
@@ -293,4 +293,74 @@ a.amis::before {
 .no-body-card,
 .no-image-card {
     display: none;
+}
+
+.sugg h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.87);
+    mix-blend-mode: normal;
+    border-bottom: 1px solid #000;
+}
+
+.sugg h3:hover {
+    opacity: .5;
+}
+
+.sugg-add-img a img {
+    width: 73px;
+    height: auto;
+    margin-top: auto;
+}
+
+.sugg-add {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    font-style: normal;
+    padding-top: 6px;
+}
+
+.sugg-add h2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sugg-add span {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.sugg-add p a {
+    font-weight: normal;
+    font-size: 12px;
+    color: initial;
+}
+
+.sugg-add p::before {
+    content: '';
+    width: 17px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../img/suggestion.svg') center center / contain no-repeat;
+}
+
+.sugg-add p:hover {
+    opacity: 0.4;
+}
+
+.sugg-add p,
+.sugg-add p::before {
+    margin: 6px 7px 7px 0px;
+}
+
+.align-header-card {
+    padding: 0 12px 14px 0;
+}
+
+.align-header-card:nth-child(1) {
+    padding: 18px 12px 14px 0;
 }
