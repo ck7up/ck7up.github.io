@@ -22,9 +22,9 @@ a {
     left: 0;
     right: 0;
     z-index: 1;
-        padding: 0 5px;
-
+    padding: 0 5px;
 }
+
 
 /* .logo img {
     width: 180px;
@@ -32,7 +32,7 @@ a {
 } */
 
 a.logo {
-/*     float: left; */
+    float: left;
     font-size: 24px;
     color: #fff;
     /* padding: 0px 51px; */
@@ -40,13 +40,46 @@ a.logo {
     line-height: 42px;
 }
 
-.menu {
-    text-align: center;
+.search {
+    padding-left: 40px;
+    display: inline-block;
     line-height: 42px;
+    position: relative;
+}
+
+input {
+    display: inline-block;
+    width: 300px;
+}
+
+input::placeholder {
+    padding-left: 5px;
+    opacity: 0.4;
+}
+
+button {
+    background: url('search.svg') center center / contain no-repeat;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    right: 6px;
+    top: 14px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.menu {
     float: right;
-    /* padding-right: 51px; */
     font-size: 14px;
+    line-height: 42px;
+    /* text-align: center; */
     /* padding: 0px 51px; */
+    /* padding-right: 51px; */
 }
 
 .menu a {
