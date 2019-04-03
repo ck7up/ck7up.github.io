@@ -1,0 +1,22 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    a.logo {
+        font-size: 2em;
+    }
+
+    nav.actu-profil a {
+        width: 150px;
+    }
+
+    nav.menu a {
+        /* padding-left: 50px; */
+        padding: 10px 0;
+        margin: 0;
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    
+    aside.aside {
+        flex: none;
+        width: 240px;
+    }
+}

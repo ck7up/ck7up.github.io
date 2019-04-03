@@ -1,0 +1,69 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    div.topbare-header {
+        height: 96px;
+    }
+    div.search {
+        display: none;
+    }
+    .container-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div a.logo {
+        font-size: 2em;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    nav.menu {
+        font-size: 1.1m;
+    }
+    div.container {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav.actu-profil {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 100%;
+    }
+    div nav.actu-profil a {
+        margin: 5px 5px 0;
+        width: 200px;
+    }
+    div.background-contenaire {
+        padding: 50px 15pxs;
+    }
+    main.main {
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+    aside.aside {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    div.sugg {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    div.sugg-add {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        line-height: normal;
+        font-style: normal;
+        padding-top: 15px;
+    }
+    div.align-header-card:nth-child(1) {
+        padding: 0;
+    }
+    div.align-header-card, div.align-header-card:nth-child(1) {
+        padding-right: 30px;
+    }
+}
