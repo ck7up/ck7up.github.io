@@ -22,4 +22,7 @@
         div.search {
             display: none;
         }
+        div nav.actu-profil a {
+            width: 135px;
+        }
     }
