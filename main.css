@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('adaptive-1024.css');
+@import url('adaptive-768.css');
+@import url('adaptive-320.css');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,8 +12,7 @@
     outline: 0;
 }
 
-body,
-a {
+body, a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
@@ -24,7 +26,6 @@ a {
     z-index: 1;
     padding: 0 10px;
 }
-
 
 /* .logo img {
     width: 180px;
@@ -53,13 +54,13 @@ input {
 }
 
 input::placeholder {
-    padding-left: 5px;
+    padding-left: 10px;
     opacity: 0.4;
 }
 
 button {
     background: url('search.svg') center center / contain no-repeat;
- height: 12px;
+    height: 12px;
     width: 12px;
     position: absolute;
     right: 6px;
@@ -90,9 +91,7 @@ button:hover {
     line-height: normal;
 }
 
-.menu a:active,
-.menu a.active,
-.menu a:hover {
+.menu a:active, .menu a.active, .menu a:hover {
     color: #fff;
     font-weight: 500;
 }
@@ -127,12 +126,10 @@ nav.actu-profil a {
     padding-left: 9px;
     border: 1px solid transparent;
     transition: transform .6s;
-    width: 180px;
+    width: 150px;
 }
 
-nav.actu-profil a:hover,
-nav.actu-profil a:active,
-nav.actu-profil a.active {
+nav.actu-profil a:hover, nav.actu-profil a:active, nav.actu-profil a.active {
     color: #000;
     font-style: normal;
     font-weight: bold;
@@ -275,10 +272,17 @@ a.amis::before {
     border-radius: 0px 0px 5px 5px;
     border-left: none;
     border-right: none;
+    border-bottom: none;
 }
 
-.footer-card a {
+div.footer-card a {
     color: #BDBDBD;
+}
+
+div.footer-card {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1em;
 }
 
 .footer-card a::before {
@@ -299,7 +303,7 @@ a.amis::before {
 }
 
 .partager {
-    padding-right: 15px;
+    /* padding-right: 15px; */
 }
 
 .footer-card a.partager::before {
@@ -322,11 +326,10 @@ a.amis::before {
 }
 
 .comment {
-    padding: 0 60px;
+    /* padding: 0 60px; */
 }
 
-.no-body-card,
-.no-image-card {
+.no-body-card, .no-image-card {
     display: none;
 }
 
@@ -387,9 +390,8 @@ a.amis::before {
     opacity: 0.4;
 }
 
-.sugg-add p,
-.sugg-add p::before {
-    margin: 6px 7px 7px 0px;
+.sugg-add p, .sugg-add p::before {
+    margin: 6px 0px 7px 0px;
 }
 
 .align-header-card {
