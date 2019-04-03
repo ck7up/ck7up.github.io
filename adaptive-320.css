@@ -1,13 +1,16 @@
     @media screen and (min-width: 320px) and (max-width: 479px) and (-webkit-min-device-pixel-ratio: 2) {
         nav.menu a {
             /* padding-left: 50px; */
-            padding: 5px;
-            margin: 0;
+            padding: 3px !important;
+            margin: 0 !important;
         }
         div.background-contenaire {
-            padding: 50px 15px;
+            padding: 50px 15px !important;
         }
-        div.align-header-card, div.align-header-card:nth-child(1){
-            padding: 7px 15px;
+        div.align-header-card, div.align-header-card:nth-child(1) {
+            padding: 7px 15px !important;
+        }
+        .topbare-header {
+            padding: 0px !important;
         }
     }
