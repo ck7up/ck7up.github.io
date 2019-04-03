@@ -3,6 +3,8 @@
             /* padding-left: 50px; */
             padding: 3px !important;
             margin: 0 !important;
+            text-align: left !important;
+            text-align: -webkit-left !important;
         }
         div.background-contenaire {
             padding: 50px 15px !important;
